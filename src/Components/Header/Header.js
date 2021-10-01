@@ -24,17 +24,17 @@ const Header = () => {
       }));
     const ariaLabel = { 'aria-label': 'description' };
     return (
-        <Container fluid className="header fixed-top ">
+        <Container fluid className="header fixed-top mb-3">
         <Navbar collapseOnSelect expand="lg" className="nav" variant="dark">
             <Container>
-                <Navbar.Brand className="text-secondary">E-All</Navbar.Brand>
+                <Navbar.Brand className="text-dark fs-3">E-All</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-primary" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <NavLink to="/home" className="text-decoration-none mt-2 text-secondary me-3">Home</NavLink>
-                        <NavLink to="/about" className="text-decoration-none mt-2 text-secondary me-3">About Us</NavLink>
-                        <NavLink to="/contact" className="text-decoration-none mt-2 text-secondary me-3">Contact Us</NavLink>
-                        <NavLink to="/link" className="text-decoration-none mt-2 text-secondary me-3">Links</NavLink>
+                        <NavLink to="/home" className="text-decoration-none mt-2 text-dark me-3">Home</NavLink>
+                        <NavLink to="/about" className="text-decoration-none mt-2 text-dark me-3">About Us</NavLink>
+                        <NavLink to="/contact" className="text-decoration-none mt-2 text-dark me-3">Contact Us</NavLink>
+                        <NavLink to="/link" className="text-decoration-none mt-2 text-dark me-3">Links</NavLink>
 
                     </Nav>
                     <Nav>
@@ -56,7 +56,7 @@ const Header = () => {
                         </NavLink>
 
                         <NavLink to="/login" >
-                            <IconButton color="primary" aria-label="add to shopping cart" className="me-3">
+                            <IconButton color="primary" aria-label="add to shopping cart" className="me-3 login">
                             <LoginIcon />
                         </IconButton>
                         </NavLink>

@@ -1,0 +1,18 @@
+.card-style:hover .details-link{
+display: block;
+position:absolute;
+margin-top:-100px;
+margin-left: 75px;
+text-align: center;
+color: whitesmoke;
+background-color:lightslategray;
+height:40px;
+width: 120px;
+border:2px solid whitesmoke;
+padding-top: 6px;
+}
+.details-link{
+    text-decoration: none;
+    display: none;
+    
+  }

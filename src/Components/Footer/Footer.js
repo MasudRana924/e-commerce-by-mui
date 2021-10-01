@@ -39,8 +39,8 @@ const Footer = () => {
 
                         </Link>
                         <Link variant="primary" to="" >
-                            <IconButton aria-label="cart" color="primary" className="ms-3 me-3">
-                                <StyledBadge badgeContent={1} color="secondary">
+                            <IconButton aria-label="cart" color="warning" className="ms-3 me-3">
+                                <StyledBadge badgeContent={1} color="primary">
                                     <ShoppingCartIcon />
                                 </StyledBadge>
                             </IconButton>
