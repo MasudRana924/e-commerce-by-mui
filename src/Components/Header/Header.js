@@ -11,6 +11,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
     const StyledBadge = styled(Badge)(({ theme }) => ({
@@ -23,10 +24,10 @@ const Header = () => {
       }));
     const ariaLabel = { 'aria-label': 'description' };
     return (
-        <Container fluid>
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="dark">
+        <Container fluid className="header fixed-top ">
+        <Navbar collapseOnSelect expand="lg" className="nav" variant="dark">
             <Container>
-                <Navbar.Brand className="text-dark">E-All</Navbar.Brand>
+                <Navbar.Brand className="text-secondary">E-All</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-primary" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">

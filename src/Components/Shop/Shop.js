@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Shop = (props) => {
     const {img}=props.product
     return (
-        <Col>
+        <Col className="mb-1 mt-1">
         <Card style={{ width: '18rem' }}>
                  <Card.Img variant="top" src={img} />
                  <Card.Body>

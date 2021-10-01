@@ -18,7 +18,7 @@ const Shops = () => {
     return (
         <>
 
-            <Container fluid>
+            <Container fluid className="mt-5">
                 { products.length === 0 ? <Stack sx={{ color: 'grey.500' }} spacing={2} direction="row" className=" w-25 mx-auto">
                     <CircularProgress color="secondary" />
                     <CircularProgress color="success" />

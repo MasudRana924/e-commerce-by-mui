@@ -1,0 +1,13 @@
+.header,nav{
+  background-color:navajowhite;
+  color:white;
+}
+@media only screen and (max-width: 768px) {
+  .header{
+      background-color: whitesmoke;
+     
+  }
+  .nav{
+    background-color: whitesmoke;
+  }
+ }

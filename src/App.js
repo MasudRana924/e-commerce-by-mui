@@ -9,6 +9,7 @@ import {
 import Header from './Components/Header/Header';
 import Shops from './Components/Shops/Shops';
 import NotFound from './Components/NotFound/NotFound'
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
          </Route>
 
        </Switch>
+      <Footer></Footer>
      </Router>
     </div>
   );
